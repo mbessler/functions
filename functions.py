@@ -17,3 +17,5 @@ class Adder:
     """
     def __call__(self, a, b):
         return a + b
+
+adder_lambda = lambda a, b: a + b
